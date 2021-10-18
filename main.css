@@ -54,7 +54,7 @@ body {
 /*** Welcome Section ***/
 #overlay {
   position: absolute;
-  height: 100vh;
+  height: 99.7%;
   width: 100vw;
   top: 0;
   left: 0;
@@ -70,6 +70,7 @@ body {
   top: -8px;
   left: -8px;
   width: 100vw;
+  max-height: 100vh;
   height: auto;
   overflow: hidden;
   overflow-y: hidden;
