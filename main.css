@@ -70,10 +70,9 @@ body {
   top: -8px;
   left: -8px;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   overflow-y: hidden;
-  background-color: red;
 }
 
 #welcome img {
