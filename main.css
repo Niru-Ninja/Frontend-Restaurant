@@ -2,9 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap"); /*font-family: 'Caveat', cursive;*/
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"); /*font-family: 'Poiret One', cursive;*/
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   overflow-x: hidden;
   background-color: #d8d8d8;
+  height: 100%;
+  width: 100%;
 }
 
 /*** Navbar ***/
@@ -51,28 +58,12 @@ body {
   margin: auto 5vw !important;
 }
 
-.overlay {
-  position: absolute;
-  height: 99.7%;
-  width: 100vw;
-  left: 0;
-  background-color: black;
-  opacity: 0.5;
-  overflow: hidden;
-}
-
 .centerIt {
   width: 100vw;
   text-align: center;
-  position: absolute;
 }
 
 /*** Welcome Section ***/
-
-#welcome .overlay {
-  top: 0;
-}
-
 #welcome {
   position: relative;
   margin: auto;
@@ -92,13 +83,17 @@ body {
   width: 100vw;
   height: auto;
   overflow: hidden;
+  filter: brightness(50%);
 }
 
 /*** Story Section ***/
 #story {
+  position: relative;
   margin: auto;
   text-align: center;
   max-width: 70vw;
+  background-color: #d8d8d8;
+  z-index: 8;
 }
 
 #story h3 {
@@ -114,27 +109,26 @@ body {
 
 /*** Menu Section ***/
 #menu {
+  position: relative;
+  height: 450px;
   width: 100vw;
-  margin: 0px;
   margin-left: -8px;
-  margin-top: 75px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
-  max-height: 500px;
   overflow: hidden;
-  background-color: red;
-}
-
-#menu .overlay {
-  max-height: 500px;
-  opacity: 0.7;
 }
 
 #menu_img {
-  position: relative;
-  left: -8px;
-  width: 100vw;
-  height: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./Images/Snack2.jpg");
+  filter: brightness(35%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #menu_text {
@@ -143,6 +137,7 @@ body {
   border-style: solid;
   border-color: white;
   color: white;
+  filter: brightness(150%);
 }
 
 #menu h3 {
