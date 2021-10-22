@@ -32,6 +32,7 @@ body {
 
 #navbar.animateNavbar {
   background-color: black;
+  box-shadow: 5px 10px 8px black;
 }
 
 #navlist {
