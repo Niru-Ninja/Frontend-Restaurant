@@ -15,6 +15,17 @@ body {
   width: 100%;
 }
 
+h3 {
+  font-family: "Explora", cursive;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Poiret One", cursive;
+  font-size: 1.5em;
+}
+
 /*** Navbar ***/
 #navbar {
   display: flex;
@@ -110,17 +121,6 @@ body {
   z-index: 8;
 }
 
-#story h3 {
-  font-family: "Explora", cursive;
-  font-size: 3.5em;
-  margin-bottom: 10px;
-}
-
-#story p {
-  font-family: "Poiret One", cursive;
-  font-size: 1.5em;
-}
-
 /*** Menu Section ***/
 #menu {
   position: relative;
@@ -155,12 +155,6 @@ body {
   filter: brightness(150%);
 }
 
-#menu h3 {
-  font-family: "Explora", cursive;
-  font-size: 3.5em;
-  margin-bottom: 10px;
-}
-
 #menuCategories {
   display: flex;
   width: 100%;
@@ -189,4 +183,50 @@ body {
 
 .menuCategory:hover {
   background-color: grey;
+}
+
+/*** Press Section ***/
+#press {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+#press h3 {
+  font-family: "Explora", cursive;
+  font-size: 3.5em;
+}
+
+#awards {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 85%;
+  flex-wrap: wrap;
+}
+
+.award {
+  text-align: left;
+  margin: 70px;
+  min-width: 500px;
+  max-width: 650px;
+}
+
+.award p {
+  font-size: 1.25em;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.award h4 {
+  font-size: 2em;
+  font-family: "Caveat", cursive;
+  margin-bottom: 10px;
+}
+
+.award a {
+  font-family: "Caveat", cursive;
+  text-transform: uppercase;
+  color: grey;
 }
