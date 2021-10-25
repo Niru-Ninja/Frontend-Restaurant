@@ -43,7 +43,7 @@ p {
 
 #navbar.animateNavbar {
   background-color: black;
-  box-shadow: 5px 10px 8px black;
+  box-shadow: 0px 0px 10px 10px black;
 }
 
 #navlist {
@@ -228,5 +228,10 @@ p {
 .award a {
   font-family: "Caveat", cursive;
   text-transform: uppercase;
-  color: grey;
+  color: #a0a0a0;
+  transition: all 0.2s ease-in-out;
+}
+
+.award a:hover {
+  color: #7f7f7f;
 }
