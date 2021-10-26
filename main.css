@@ -26,6 +26,61 @@ p {
   font-size: 1.5em;
 }
 
+/*** Parallax Section Classes ***/
+.parallaxSection {
+  position: relative;
+  height: 610px;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.parallaxImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: brightness(35%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxText {
+  max-width: 70vw;
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  filter: brightness(150%);
+}
+
+.parallaxButton {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.parallaxButton:hover {
+  background-color: grey;
+}
+
 /*** Navbar ***/
 #navbar {
   display: flex;
@@ -122,28 +177,8 @@ p {
 }
 
 /*** Menu Section ***/
-#menu {
-  position: relative;
-  height: 610px;
-  width: 100vw;
-  margin-left: -8px;
-  margin-top: 75px;
-  margin-bottom: 75px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
 #menu_img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
   background-image: url("./Images/Snack2.jpg");
-  filter: brightness(35%);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #menu_text {
@@ -161,28 +196,6 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-}
-
-.menuCategory {
-  font-family: "Poiret One", cursive;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 50px;
-  font-size: 1.5em;
-  margin: 10px;
-  border-style: solid;
-  border-color: white;
-  color: white;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.menuCategory:hover {
-  background-color: grey;
 }
 
 /*** Press Section ***/
@@ -234,4 +247,21 @@ p {
 
 .award a:hover {
   color: #7f7f7f;
+}
+
+/*** Reservation Section ***/
+#reservation_img {
+  background-image: url("./Images/Restaurant-General.jpg");
+}
+
+#reservation_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+#reservation_text h3 {
+  margin-bottom: 3%;
 }
