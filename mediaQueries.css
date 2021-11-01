@@ -1,3 +1,16 @@
+@media (max-width: 1600px) {
+  .award {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 1270px) {
+  .award {
+    width: 400px;
+    margin: auto;
+  }
+}
+
 @media (max-width: 630px) {
   .award {
     margin-left: 0px;
@@ -5,11 +18,5 @@
 
   #reservations .parallaxButton {
     width: 200px;
-  }
-}
-
-@media (max-width: 540px) {
-  .award {
-    min-width: 400px;
   }
 }

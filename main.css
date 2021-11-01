@@ -222,7 +222,8 @@ p {
 .award {
   text-align: left;
   margin: 70px;
-  min-width: 500px;
+  width: 34vw;
+  min-width: 400px;
   max-width: 650px;
 }
 
