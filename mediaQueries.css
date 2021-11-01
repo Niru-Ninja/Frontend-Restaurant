@@ -1,3 +1,9 @@
+@media (max-width: 1720px) {
+  .award {
+    width: 33vw;
+  }
+}
+
 @media (max-width: 1600px) {
   .award {
     width: 30vw;
