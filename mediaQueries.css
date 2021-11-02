@@ -17,6 +17,24 @@
   }
 }
 
+@media (min-width: 1000px) {
+  #hamburguer {
+    display: none;
+  }
+  #navbar {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  #hamburguer {
+    display: block;
+  }
+  #navbar {
+    display: none;
+  }
+}
+
 @media (max-width: 630px) {
   .award {
     margin-left: 0px;

@@ -94,6 +94,7 @@ p {
   margin: 0px;
   padding: 0px;
   transition: all 1s ease-in-out;
+  display: none;
 }
 
 #navbar.animateNavbar {
@@ -137,6 +138,89 @@ p {
 .centerIt {
   width: 100vw;
   text-align: center;
+}
+
+/*** Hamburguer menu for small screens ***/
+#hamburguer {
+  width: 100%;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  z-index: 15;
+  background-color: black;
+  box-shadow: 0px 0px 10px 10px black;
+}
+
+#hamburguer .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5px 10px;
+  color: white;
+}
+
+#hamburguer .top .menu_icon {
+  padding: 20px;
+  color: white;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 50px !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#hamburguer .top h1 {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-family: "Explora", cursive;
+  font-size: 6em;
+  margin: auto;
+}
+
+#ham_menu {
+  position: fixed;
+  z-index: 15;
+  margin: 0px;
+  top: 126px;
+  width: 300px;
+  background-color: black;
+}
+
+.menu {
+  left: -500px;
+}
+
+.menu_show {
+  left: 0px;
+}
+
+#ham_menu a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poiret One", cursive;
+  font-size: 2em;
+  margin-left: 0px;
+  padding: 20px;
+  width: 280px;
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+#ham_menu a:hover {
+  background-color: #202020;
 }
 
 /*** Welcome Section ***/
