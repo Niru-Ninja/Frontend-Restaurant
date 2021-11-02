@@ -24,6 +24,9 @@
   #navbar {
     display: block;
   }
+  .menu_show {
+    left: -500px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -32,6 +35,9 @@
   }
   #navbar {
     display: none;
+  }
+  .menu_show {
+    left: 0px;
   }
 }
 
