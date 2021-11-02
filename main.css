@@ -180,7 +180,6 @@ p {
 
 #hamburguer .top h1 {
   position: relative;
-  flex: 1;
   display: flex;
   justify-content: center;
   font-family: "Explora", cursive;
