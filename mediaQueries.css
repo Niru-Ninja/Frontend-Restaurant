@@ -1,8 +1,8 @@
-@media (pointer: coarse) {
+/*@media (pointer: coarse) {
   html {
     overflow-x: hidden;
   }
-}
+}*/
 
 @media (max-width: 1720px) {
   .award {
