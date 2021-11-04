@@ -37,6 +37,7 @@ p {
   display: flex;
   align-items: center;
   overflow: hidden;
+  background-color: red;
 }
 
 .parallaxImage {
@@ -234,6 +235,7 @@ p {
   height: auto;
   overflow: hidden;
   overflow-y: hidden;
+  background-color: red;
 }
 
 #header_img {
