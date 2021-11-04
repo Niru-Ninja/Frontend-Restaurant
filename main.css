@@ -30,7 +30,7 @@ p {
 .parallaxSection {
   position: relative;
   height: 610px;
-  width: 110vw;
+  width: 100vw;
   margin-left: -8px;
   margin-top: 75px;
   margin-bottom: 75px;
@@ -42,7 +42,7 @@ p {
 
 .parallaxImage {
   position: absolute;
-  width: 110%;
+  width: 100%;
   height: 100%;
   filter: brightness(35%);
   background-attachment: fixed;
@@ -230,7 +230,7 @@ p {
   padding: 0px;
   top: -8px;
   left: -8px;
-  width: 110vw;
+  width: 100vw;
   max-height: 100vh;
   height: auto;
   overflow: hidden;
@@ -242,7 +242,7 @@ p {
   position: relative;
   background-image: url("./Images/Restaurant-Food-alt.jpg");
   margin: auto;
-  width: 110vw;
+  width: 100vw;
   height: 100vh;
   filter: brightness(50%);
   background-attachment: fixed;
