@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  overflow-x: hidden;
   background-color: #d8d8d8;
   height: 100%;
   width: 100%;
@@ -226,13 +225,11 @@ p {
 /*** Welcome Section ***/
 #welcome {
   position: relative;
-  margin: auto;
   padding: 0px;
   top: -8px;
   left: -8px;
   width: 100vw;
-  max-height: 100vh;
-  height: auto;
+  min-height: 100vh;
   overflow: hidden;
   overflow-y: hidden;
   background-color: red;
@@ -241,7 +238,6 @@ p {
 #header_img {
   position: relative;
   background-image: url("./Images/Restaurant-Food-alt.jpg");
-  margin: auto;
   width: 100vw;
   height: 100vh;
   filter: brightness(50%);
@@ -339,7 +335,6 @@ p {
 #reservations {
   z-index: -1;
   margin-bottom: 0px;
-  background-color: black;
 }
 
 #reservation_img {
