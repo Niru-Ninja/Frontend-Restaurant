@@ -41,7 +41,7 @@ p {
 
 .parallaxImage {
   position: absolute;
-  width: 100%;
+  width: 110%;
   height: 100%;
   filter: brightness(35%);
   background-attachment: fixed;
