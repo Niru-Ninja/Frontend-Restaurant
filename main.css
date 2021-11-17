@@ -319,7 +319,6 @@ p {
 
 /*** Reservation Section ***/
 #reservations {
-  z-index: -1;
   margin-bottom: 0px;
 }
 
