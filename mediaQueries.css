@@ -1,22 +1,3 @@
-@media (max-width: 1720px) {
-  .award {
-    width: 33vw;
-  }
-}
-
-@media (max-width: 1600px) {
-  .award {
-    width: 30vw;
-  }
-}
-
-@media (max-width: 1270px) {
-  .award {
-    width: 400px;
-    margin: auto;
-  }
-}
-
 @media (min-width: 1000px) {
   #hamburguer {
     display: none;
@@ -38,26 +19,5 @@
   }
   .menu_show {
     left: 0px;
-  }
-  .award p {
-    font-size: 1.75em;
-  }
-
-  .award h4 {
-    font-size: 2.5em;
-  }
-
-  .award a {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 630px) {
-  .award {
-    margin-left: 0px;
-  }
-
-  #reservations .parallaxButton {
-    width: 200px;
   }
 }

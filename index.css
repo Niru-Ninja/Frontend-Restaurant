@@ -1,0 +1,223 @@
+/*** Welcome Section ***/
+#welcome {
+  top: -8px;
+  left: -8px;
+  margin: 0px;
+  height: 100vh;
+}
+
+#header_img {
+  background-image: url("./Images/Restaurant-Food-alt.jpg");
+  filter: brightness(50%);
+}
+
+/*** Story Section ***/
+#story {
+  position: relative;
+  margin: 80px auto;
+  text-align: center;
+  max-width: 70vw;
+  background-color: #d8d8d8;
+  z-index: 8;
+}
+
+/*** Menu Section ***/
+#menu_img {
+  background-image: url("./Images/Snack2.jpg");
+}
+
+#menu_text {
+  max-width: 70vw;
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  filter: brightness(150%);
+}
+
+#menuCategories {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/*** Press Section ***/
+#press {
+  /*position: relative;*/
+  margin: auto;
+  text-align: center;
+}
+
+#press h3 {
+  font-family: "Explora", cursive;
+  font-size: 3.5em;
+}
+
+#awards {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 85%;
+  flex-wrap: wrap;
+}
+
+.award {
+  text-align: left;
+  margin: 70px;
+  width: 34vw;
+  min-width: 400px;
+  max-width: 650px;
+}
+
+.award p {
+  font-size: 1.25em;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.award h4 {
+  font-size: 2em;
+  font-family: "Caveat", cursive;
+  margin-bottom: 10px;
+}
+
+.award a {
+  font-family: "Caveat", cursive;
+  text-transform: uppercase;
+  color: #a0a0a0;
+  transition: all 0.2s ease-in-out;
+}
+
+.award a:hover {
+  color: #7f7f7f;
+}
+
+/*** Reservation Section ***/
+#reservations {
+  margin-bottom: 0px;
+}
+
+#reservation_img {
+  background-image: url("./Images/Restaurant-General.jpg");
+}
+
+#reservation_text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5%;
+}
+
+#reservation_text h3 {
+  margin-bottom: 3%;
+}
+
+/*** Social Footer ***/
+#social {
+  overflow: hidden;
+  width: 100vw;
+  position: relative;
+  margin-left: -8px;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 10px 10px black;
+  z-index: 1;
+}
+
+#social_text {
+  margin-top: 20px;
+}
+
+#social_text h3 {
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Explora", cursive;
+  font-size: 7em;
+  margin: auto 5vw;
+  margin-bottom: 15px;
+}
+
+#restaurants {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant {
+  margin: 50px 60px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.restaurant p {
+  font-size: 1.25em;
+}
+
+.restaurant h4 {
+  font-family: "Caveat", cursive;
+  font-size: 3em;
+  margin: 20px auto;
+}
+
+.phoneNum {
+  font-family: "Explora", cursive;
+  font-size: 2em !important;
+  margin: 30px auto;
+}
+
+.openTime {
+  font-size: 1.25em !important;
+}
+
+/*** MEDIA QUERIES: ***/
+@media (max-width: 1720px) {
+  .award {
+    width: 33vw;
+  }
+}
+
+@media (max-width: 1600px) {
+  .award {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 1270px) {
+  .award {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .award p {
+    font-size: 1.75em;
+  }
+
+  .award h4 {
+    font-size: 2.5em;
+  }
+
+  .award a {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 630px) {
+  .award {
+    margin-left: 0px;
+  }
+
+  #reservations .parallaxButton {
+    width: 200px;
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./reservations.css" />
+    <link rel="stylesheet" href="../mediaQueries.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <ul id="navlist">
+            <li><a href="../index.html#welcome">Home</a></li>
+            <li><a href="../index.html#story">Story</a></li>
+            <li><a href="../index.html#menu">Menu</a></li>
+            <li id="logo">Luigis</li>
+            <li><a href="../index.html#social">Social</a></li>
+            <li><a href="../index.html#press">Press</a></li>
+            <li><a href="../index.html#reservations">Reservations</a></li>
+        </ul>
+    </nav>
+    <div id="hamburguer">
+        <div class="top">
+            <div class="menu_icon" translate="no"><i class="material-icons">dehaze</i></div>
+            <h1 translate="no">Luigis</h1>
+        </div>
+    </div>
+    <nav id="ham_menu" class="menu">
+        <a href="../index.html#welcome">Home</a>
+        <a href="../index.html#story">Story</a>
+        <a href="../index.html#menu">Menu</a>
+        <a href="../index.html#social">Social</a>
+        <a href="../index.html#press">Press</a>
+        <a href="../index.html#reservations">Reservations</a>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $("body").on('click', '.menu_icon', function () {
+                $("nav.menu").toggleClass("menu_show");
+            });
+        });
+    </script>
+</body>
