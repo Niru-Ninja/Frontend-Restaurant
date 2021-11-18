@@ -78,6 +78,10 @@ p {
   background-color: grey;
 }
 
+.parallaxLink {
+  text-decoration: none;
+}
+
 /*** Navbar ***/
 #navbar {
   display: flex;
