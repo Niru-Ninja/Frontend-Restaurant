@@ -129,6 +129,10 @@
   z-index: 1;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #social_text {
   margin-top: 20px;
 }
