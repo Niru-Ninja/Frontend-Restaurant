@@ -39,7 +39,7 @@
     </nav>
     <section id="form">
         <h3>Reservations</h3>
-        <div class="flexColumn">
+        <div class="formSection flexColumn">
             <p class="generalMargin">Name *</p>
             <div class="flexRow">
                 <div class="flexColumn nameTextbox">
@@ -52,6 +52,40 @@
                 </div>
             </div>
         </div>
+        <div class="formSection">
+            <label for="phoneNumber" class="generalMargin">Phone Number *</label>
+            <input id="phoneNumber" class="textBox" name="phoneNumber" type="text" required />
+        </div>
+        <div class="formSection">
+            <label for="emailAddr" class="generalMargin">Email Address</label>
+            <input id="emailAddr" class="textBox" name="emailAddr" type="text" required />
+        </div>
+        <div class="formSection flexColumn">
+            <p class="generalMargin">Date *</p>
+            <div class="flexRow dateRow">
+                <div class="flexColumn dateTextbox">
+                    <input id="dayBox" class="generalMargin textBox" name="dayBox" type="text" required />
+                    <label for="dayBox" class="underText">DD</label>
+                </div>
+                <div class="flexColumn dateTextbox">
+                    <input id="monthBox" class="generalMargin textBox" name="monthBox" type="text" required />
+                    <label for="monthBox" class="underText">MM</label>
+                </div>
+                <div class="flexColumn dateTextbox">
+                    <input id="yearBox" class="generalMargin textBox" name="yearBox" type="text" required />
+                    <label for="yearBox" class="underText">YYYY</label>
+                </div>
+            </div>
+        </div>
+        <div class="formSection">
+            <label for="guestNumber" class="generalMargin">Number of Guests *</label>
+            <input id="guestNumber" class="textBox" name="guestNumber" type="text" required />
+        </div>
+        <div class="formSection">
+            <label for="comments" class="generalMargin">Comments</label>
+            <input id="comments" class="textBox" name="comments" type="text" required />
+        </div>
+        <button type="submit" id="submit">Submit</button>
     </section>
     <script>
         $(document).ready(function () {
