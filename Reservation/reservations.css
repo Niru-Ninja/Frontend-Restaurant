@@ -2,3 +2,46 @@
   background-color: black;
   box-shadow: 0px 0px 10px 10px black;
 }
+
+h3 {
+  text-align: center;
+}
+
+#form {
+  margin: auto;
+  width: 75%;
+  margin-top: 250px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.generalMargin {
+  margin-bottom: 5px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nameTextbox {
+  width: 49%;
+}
+
+.underText {
+  font-family: "Poiret One", cursive;
+  font-size: 1em;
+}
+
+.textBox {
+  width: 100%;
+  border-width: thin;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: darkgrey;
+  height: 50px;
+}

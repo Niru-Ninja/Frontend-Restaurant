@@ -37,6 +37,22 @@
         <a href="../index.html#press">Press</a>
         <a href="../index.html#reservations">Reservations</a>
     </nav>
+    <section id="form">
+        <h3>Reservations</h3>
+        <div class="flexColumn">
+            <p class="generalMargin">Name *</p>
+            <div class="flexRow">
+                <div class="flexColumn nameTextbox">
+                    <input id="firstName" class="generalMargin textBox" name="firstName" type="text" required />
+                    <label for="firstName" class="underText">First Name</label>
+                </div>
+                <div class="flexColumn nameTextbox">
+                    <input id="lastName" class="generalMargin textBox" name="lastName" type="text" required />
+                    <label for="lastName" class="underText">Last Name</label>
+                </div>
+            </div>
+        </div>
+    </section>
     <script>
         $(document).ready(function () {
             $("body").on('click', '.menu_icon', function () {
