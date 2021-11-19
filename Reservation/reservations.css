@@ -1,5 +1,6 @@
 h3 {
   text-align: center;
+  margin-bottom: 0px !important;
 }
 
 label {
@@ -34,20 +35,26 @@ button:hover {
 #form {
   margin: auto;
   width: 75%;
-  margin-top: 250px;
+  max-width: 1000px;
+  margin-top: 190px;
 }
 
 .formSection {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .generalMargin {
   margin-bottom: 5px;
 }
 
+.title {
+  margin-bottom: 20px;
+}
+
 .flexColumn {
   display: flex;
   flex-direction: column;
+  margin-top: -15px;
 }
 
 .flexRow {
@@ -67,7 +74,7 @@ button:hover {
   border-radius: 5px;
   border-style: solid;
   border-color: darkgrey;
-  height: 50px;
+  height: 45px;
 }
 
 /*** Name form field ***/
