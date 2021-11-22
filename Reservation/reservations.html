@@ -59,28 +59,28 @@
             </div>
             <div class="formSection">
                 <label for="emailAddr" class="generalMargin">Email Address</label>
-                <input id="emailAddr" class="textBox" name="emailAddr" type="text"/>
+                <input id="emailAddr" class="textBox" name="emailAddr" type="email"/>
             </div>
             <div class="formSection flexColumn">
                 <p class="title">Date *</p>
                 <div class="flexRow dateRow">
                     <div class="flexColumn dateTextbox">
-                        <input id="dayBox" class="generalMargin textBox" name="dayBox" type="text" required />
+                        <input id="dayBox" class="generalMargin textBox" name="dayBox" type="number" min="1" max="30" required />
                         <label for="dayBox" class="underText">DD</label>
                     </div>
                     <div class="flexColumn dateTextbox">
-                        <input id="monthBox" class="generalMargin textBox" name="monthBox" type="text" required />
+                        <input id="monthBox" class="generalMargin textBox" name="monthBox" type="number" min="1" max="12" required />
                         <label for="monthBox" class="underText">MM</label>
                     </div>
                     <div class="flexColumn dateTextbox">
-                        <input id="yearBox" class="generalMargin textBox" name="yearBox" type="text" required />
+                        <input id="yearBox" class="generalMargin textBox" name="yearBox" type="number" min="2021" required />
                         <label for="yearBox" class="underText">YYYY</label>
                     </div>
                 </div>
             </div>
             <div class="formSection">
                 <label for="guestNumber" class="generalMargin">Number of Guests *</label>
-                <input id="guestNumber" class="textBox" name="guestNumber" type="text" required />
+                <input id="guestNumber" class="textBox" name="guestNumber" type="number" required />
             </div>
             <div class="formSection">
                 <label for="comments" class="generalMargin">Comments</label>
