@@ -68,6 +68,16 @@ button:hover {
   font-size: 1em;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .textBox {
   width: 100%;
   border-width: thin;
