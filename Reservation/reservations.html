@@ -44,47 +44,47 @@
                 <p class="title">Name *</p>
                 <div class="flexRow">
                     <div class="flexColumn nameTextbox">
-                        <input id="firstName" class="generalMargin textBox" name="firstName" type="text" required />
+                        <input id="firstName" class="generalMargin" name="firstName" type="text" value="" required />
                         <label for="firstName" class="underText">First Name</label>
                     </div>
                     <div class="flexColumn nameTextbox">
-                        <input id="lastName" class="generalMargin textBox" name="lastName" type="text" required />
+                        <input id="lastName" class="generalMargin" name="lastName" type="text" value="" required />
                         <label for="lastName" class="underText">Last Name</label>
                     </div>
                 </div>
             </div>
             <div class="formSection">
                 <label for="phoneNumber" class="generalMargin">Phone Number *</label>
-                <input id="phoneNumber" class="textBox" name="phoneNumber" type="text" required />
+                <input id="phoneNumber" name="phoneNumber" type="text" value="" required />
             </div>
             <div class="formSection">
                 <label for="emailAddr" class="generalMargin">Email Address</label>
-                <input id="emailAddr" class="textBox" name="emailAddr" type="email"/>
+                <input id="emailAddr" name="emailAddr" type="email" value=""/>
             </div>
             <div class="formSection flexColumn">
                 <p class="title">Date *</p>
                 <div class="flexRow dateRow">
                     <div class="flexColumn dateTextbox">
-                        <input id="dayBox" class="generalMargin textBox" name="dayBox" type="number" min="1" max="30" required />
+                        <input id="dayBox" class="generalMargin" name="dayBox" type="number" min="1" max="30" value="" required />
                         <label for="dayBox" class="underText">DD</label>
                     </div>
                     <div class="flexColumn dateTextbox">
-                        <input id="monthBox" class="generalMargin textBox" name="monthBox" type="number" min="1" max="12" required />
+                        <input id="monthBox" class="generalMargin" name="monthBox" type="number" min="1" max="12" value="" required />
                         <label for="monthBox" class="underText">MM</label>
                     </div>
                     <div class="flexColumn dateTextbox">
-                        <input id="yearBox" class="generalMargin textBox" name="yearBox" type="number" min="2021" required />
+                        <input id="yearBox" class="generalMargin" name="yearBox" type="number" min="2021" value="" required />
                         <label for="yearBox" class="underText">YYYY</label>
                     </div>
                 </div>
             </div>
             <div class="formSection">
                 <label for="guestNumber" class="generalMargin">Number of Guests *</label>
-                <input id="guestNumber" class="textBox" name="guestNumber" type="number" required />
+                <input id="guestNumber" name="guestNumber" type="number" value="" required />
             </div>
             <div class="formSection">
                 <label for="comments" class="generalMargin">Comments</label>
-                <input id="comments" class="textBox" name="comments" type="text"/>
+                <input id="comments" name="comments" type="text" value="" />
             </div>
             <button type="submit" id="submit">Submit</button>
         </form>

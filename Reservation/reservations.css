@@ -78,13 +78,17 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.textBox {
+input {
   width: 100%;
   border-width: thin;
   border-radius: 5px;
   border-style: solid;
   border-color: darkgrey;
   height: 45px;
+}
+
+input:invalid {
+  border-color: lightcoral;
 }
 
 /*** Name form field ***/
